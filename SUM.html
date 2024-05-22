@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+let num1 = prompt("Enter a number:");
+let num2 = confirm("Do you want to add another number?");
+
+let sum = parseInt(num1);
+
+if (num2) {
+  let num3 = prompt("Enter another number:");
+  sum += parseInt(num3);
+}
+
+alert(`Sum of the numbers is: ${sum}`);
+</script>
+
+</body>
+</html>
